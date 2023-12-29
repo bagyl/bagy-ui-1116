@@ -13,6 +13,7 @@
       Then I type "rianag" into element with xpath "//input[@formcontrolname='password']"
       Then I type "rianag" into element with xpath "//input[@formcontrolname='confirmPassword']"
       Then I click on element with xpath "//button[@type='submit']"
+
       Then I confirm user account with email "Riana@gmail.com"
       Then I wait for 3 sec
 
