@@ -18,7 +18,9 @@
       Then I wait for 2 sec
       Then I type "newscq" into element with xpath "//input[@formcontrolname='name']"
       Then I click on element with xpath "(//button[@type='button'])[3]"
+      Then I wait for 2 sec
       Then I click on element with xpath "(//*[@class='mat-radio-outer-circle'])[2]/.."
+      Then I wait for 2 sec
       Then I wait for element with xpath "//textarea[@formcontrolname='question']" to be present
       Then I type "automation tool" into element with xpath "//textarea[@formcontrolname='question']"
       Then I wait for element with xpath "//textarea[@formcontrolname='option']" to be present
