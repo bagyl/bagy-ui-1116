@@ -51,8 +51,11 @@
       Then I type "Teacher79@enoiv.com" into element with xpath "//*[@formcontrolname='email']"
       Then I type "Roseb1" into element with xpath "//*[@formcontrolname='password']"
       And I click on element with xpath "//button[@type='submit']"
+      And I wait for 2 sec
       And I wait for element with xpath "//h5[contains(text(), 'Quizzes')]" to be present
+      And I wait for 2 sec
       And I click on element with xpath "//h5[contains(text(), 'Quizzes')]"
+      And I wait for 2 sec
       And I wait for element with xpath "//button/span[contains(text(), 'Create New Quiz')]" to be present
       And I click on element with xpath "//button/span[contains(text(), 'Create New Quiz')]"
       And I wait for element with xpath "//input[@formcontrolname='name']" to be present
